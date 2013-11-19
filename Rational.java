@@ -1,3 +1,8 @@
+// John Waldo
+// HW27
+// Period 9
+// 11/18/13
+// Doesnt entirely work but is almost complete. Got stuck near the end and couldnt figure out what to do.
 public class Rational {
     private int numerator;
     private int denominator;
