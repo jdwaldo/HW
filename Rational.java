@@ -60,9 +60,9 @@ public class Rational {
 	    return gcd (a, b % a);
 	}
     }
-    private void reduce( Rational r) {
+    public void reduce() {
 	if (numerator != 0) {
-	    int common = gcd (numerator, denominator);
+	    int common = gcd(numerator, denominator);
 	    numerator /= common;
 	    denominator /= common;
 	}
