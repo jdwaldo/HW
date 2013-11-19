@@ -69,8 +69,8 @@ public class Rational {
     }
     public int compareTo(Rational r) {
 	Rational difference = this.subtract((Rational)r);
-	if (difference.numerator == 0) return 0;
-	else if (difference.numerator < 0) return -1;
+	if (difference.getNumerator() == 0) return 0;
+	else if (difference.getNumerator() < 0) return -1;
 	else return 1;
     }
     public static void main(String[] args) {
